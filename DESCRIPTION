@@ -1,0 +1,23 @@
+Package: PredCrim
+Type: Package
+Title: Tools for spatio-temporal prediction of crimes in Manaus, Brazil
+Version: 0.1.0
+Author: Lucas Castro and Max Lima
+Maintainer: Lucas Castro <lucasroberto.castro@gmail.com>
+Description: The aim of this package is predict the intensity of specific kinds
+    of crime in Manaus
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    MASS,
+    plyr,
+    raster,
+    rgdal,
+    rgeos,
+    spatstat,
+    maptools,
+    spdep,
+    sp,
+    leaflet
+RoxygenNote: 5.0.1
